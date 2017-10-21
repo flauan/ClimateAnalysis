@@ -1,7 +1,8 @@
-#------------------------------------
-#Fervis Lauan               2017-Oct
-#API App using SQLAlchemy-ORM
-#------------------------------------
+print("TEST")
+# #------------------------------------
+# #Fervis Lauan               2017-Oct
+# #API App using SQLAlchemy-ORM
+# #------------------------------------
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
@@ -15,7 +16,7 @@ from datetime import timedelta
 
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import datetime as datetime
 
 from flask import Flask, jsonify
